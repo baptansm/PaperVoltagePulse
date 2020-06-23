@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.26)  22 JUN 2020 18:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.26)  23 JUN 2020 14:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -340,62 +340,57 @@ Package caption Info: End \AtBeginDocument code.
 \openout3 = `paperNotes.bib'.
 
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./model.tex
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 <../figures/syst_color.pdf, id=10, 946.01428pt x 471.20041pt>
 File: ../figures/syst_color.pdf Graphic file (type pdf)
 <use ../figures/syst_color.pdf>
-Package pdftex.def Info: ../figures/syst_color.pdf  used on input line 26.
+Package pdftex.def Info: ../figures/syst_color.pdf  used on input line 121.
 (pdftex.def)             Requested size: 280.80286pt x 139.86569pt.
-)
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(./simulation.tex
-<../figures/A_vs_nbar_W1_L3000_V03_lx50_Ef21_u0_tau500.pdf, id=11, 578.16pt x 4
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¼ in font cmr12!
+[2]
+<../figures/A_vs_nbar_W1_L3000_V03_lx50_Ef21_u0_tau500.pdf, id=22, 578.16pt x 4
 33.62pt>
 File: ../figures/A_vs_nbar_W1_L3000_V03_lx50_Ef21_u0_tau500.pdf Graphic file (t
 ype pdf)
 <use ../figures/A_vs_nbar_W1_L3000_V03_lx50_Ef21_u0_tau500.pdf>
 Package pdftex.def Info: ../figures/A_vs_nbar_W1_L3000_V03_lx50_Ef21_u0_tau500.
-pdf  used on input line 8.
+pdf  used on input line 143.
 (pdftex.def)             Requested size: 327.59857pt x 245.6971pt.
-) (./paper.bbl
+ (./paper.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 53.
 
-) [2] [3 <../figures/syst_color.pdf> <../figures/A_vs_nbar_W1_L3000_V03_lx50_Ef
-21_u0_tau500.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ../figures/A_vs_nbar_W1_L3000_V03_lx50_
-Ef21_u0_tau500.pdf): PDF inclusion: multiple pdfs with page group included in a
- single page
->] (./paper.aux) ) 
+) [3 <../figures/syst_color.pdf>] [4 <../figures/A_vs_nbar_W1_L3000_V03_lx50_Ef
+21_u0_tau500.pdf>] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 5364 strings out of 492982
- 76804 string characters out of 6134896
- 155033 words of memory out of 5000000
- 8869 multiletter control sequences out of 15000+600000
+ 5359 strings out of 492982
+ 76747 string characters out of 6134896
+ 154033 words of memory out of 5000000
+ 8870 multiletter control sequences out of 15000+600000
  9538 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,7n,42p,306b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
-2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
-fb>
-Output written on paper.pdf (3 pages, 157156 bytes).
+ 44i,7n,42p,356b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmti12.pfb>
+Output written on paper.pdf (4 pages, 146535 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 119 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

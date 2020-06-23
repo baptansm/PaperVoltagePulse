@@ -23,7 +23,12 @@
 \documentclass[aps,prl,preprint,groupedaddress]{revtex4-1}
 %\documentclass[aps,prl,preprint,superscriptaddress]{revtex4-2}
 %\documentclass[aps,prl,reprint,groupedaddress]{revtex4-2}
+\usepackage{amsmath}
 
+\usepackage{rotating}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{subfig}
 % You should use BibTeX and apsrev.bst for references
 % Choosing a journal automatically selects the correct APS
 % BibTeX style file (bst file), so only uncomment the line
@@ -70,7 +75,7 @@
 
 \begin{abstract}
 % insert abstract here
-Here we present ...
+Here we present the unveilling of dynamical interferences in a Fermi liquid by a voltage pulse propagating through a quantum wire. Time-dependent simulations were performed with the opensource Python package Kwant and its extension Tkwant.
 \end{abstract}
 
 % insert suggested keywords - APS authors don't need to do this
@@ -85,9 +90,19 @@ Here we present ...
 % Put \label in argument of \section for cross-referencing
 %\section{\label{}}
 
-fdsf
-\section{Model}
 
+\section{Model}
+\input{model}
+\section{Simulation}
+\input{simulation}
+ 
+ 
+ 
+\bibliography{basename of .bib file}
+
+\end{document}
+%
+% ****** End of file apstemplate.tex ******
 % If in two-column mode, this environment will change to single-column
 % format so that long equations can be displayed. Use
 % sparingly.
@@ -167,8 +182,3 @@ fdsf
 %\end{acknowledgments}
 
 % Create the reference section using BibTeX:
-\bibliography{basename of .bib file}
-
-\end{document}
-%
-% ****** End of file apstemplate.tex ******

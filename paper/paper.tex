@@ -145,8 +145,23 @@ with:
  	\label{fig:avsnbarw1l3000v03lx50ef2}
  \end{figure}
  
- 
- 
+\section{Interferences}
+For one-dimensional chain, the scattering states have the simple form:
+\begin{equation}
+	\psi(x,t) =  \frac{1}{\sqrt{v(k)}} e^{ikx - iEt}
+\end{equation}
+
+In our case, the QPC reflects the incoming states, and we obtain the following wavefunction:
+\begin{equation}
+\Psi(x,t) = \frac{1}{\sqrt{v(k)}} e^{ikx - iEt} + r\frac{1}{\sqrt{v(k)}} e^{-ikx - iEt}
+\end{equation}
+
+This leads to destructive interferences. However, as the voltage pulse progagates, the incoming state phase shift dynamically:
+\begin{equation}
+\psi(x,t) =  \frac{1}{\sqrt{v(k)}} e^{ikx - iEt + i\phi(t)}
+\end{equation}
+which unveils the presence of interferences by changing the phase differences between the incoming and reflected states by $\phi(t\gg \tau) = 2\pi \overline{n}$.
+
 \bibliography{basename of .bib file}
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.26)  24 JUN 2020 16:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.26)  29 JUN 2020 13:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -354,43 +354,40 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 [2]
-<../figures/A_vs_nbar_W1_L3000_V03_lx50_Ef21_u0_tau500.pdf, id=22, 578.16pt x 4
-33.62pt>
-File: ../figures/A_vs_nbar_W1_L3000_V03_lx50_Ef21_u0_tau500.pdf Graphic file (t
-ype pdf)
-<use ../figures/A_vs_nbar_W1_L3000_V03_lx50_Ef21_u0_tau500.pdf>
-Package pdftex.def Info: ../figures/A_vs_nbar_W1_L3000_V03_lx50_Ef21_u0_tau500.
-pdf  used on input line 143.
+<../figures/A_vs_nbar_vs_transm.pdf, id=22, 578.16pt x 433.62pt>
+File: ../figures/A_vs_nbar_vs_transm.pdf Graphic file (type pdf)
+<use ../figures/A_vs_nbar_vs_transm.pdf>
+Package pdftex.def Info: ../figures/A_vs_nbar_vs_transm.pdf  used on input line
+ 143.
 (pdftex.def)             Requested size: 327.59857pt x 245.6971pt.
  [3 <../figures/syst_color_textv2.pdf>] (./paper.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 53.
 
-) [4 <../figures/A_vs_nbar_W1_L3000_V03_lx50_Ef21_u0_tau500.pdf>] (./paper.aux)
- ) 
+) [4 <../figures/A_vs_nbar_vs_transm.pdf>] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
  5359 strings out of 492982
- 76782 string characters out of 6134896
+ 76667 string characters out of 6134896
  155033 words of memory out of 5000000
  8870 multiletter control sequences out of 15000+600000
  9538 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,7n,42p,356b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
->
-Output written on paper.pdf (4 pages, 148597 bytes).
+ 44i,7n,42p,413b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on paper.pdf (4 pages, 151712 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
+ 120 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)

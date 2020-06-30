@@ -155,20 +155,25 @@ In our case, the QPC reflects the incoming states, and we obtain the following w
 \begin{equation}
 \Psi(x,t) = \frac{1}{\sqrt{v(k)}} e^{ikx - iEt} + r\frac{1}{\sqrt{v(k)}} e^{-ikx - iEt}
 \end{equation}
-\begin{figure}
-	\centering
-	\includegraphics[width=0.7\linewidth]{../figures/density_off_202}
-	\caption{The charge density as a function of time $t$ and position $x$ without QPC. The parameters were $\overline{n} =0.01$, $\tau = 500$, $t_0 =1200$, $V_0 = 0$, $\xi = 50$, $E_F =2.02$.  }
-	\label{fig:densityoff202}
-\end{figure}
 
-\begin{figure}
+\begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.7\linewidth]{../figures/density_on_202}
-	\caption{The charge density as a function of time $t$ and position $x$ without QPC. The parameters were $\overline{n} =0.01$, $\tau = 500$, $t_0 =1200$, $V_0 = 3$, $\xi = 50$, $E_F =2.02$.}
-	\label{fig:densityon202}
+	\subfloat[ ]{{\includegraphics[width=0.4\linewidth]{../figures/density_off_202} }}%
+	\qquad
+	\subfloat[]{{\includegraphics[width=0.4\linewidth]{../figures/density_on_202} }}%
+	\caption{The charge density as a function of time $t$ and position $x$ (a) without (b) QPC. The parameters were $\overline{n} =0.01$, $\tau = 500$, $t_0 =1200$, (a) $V_0 = 0$ (b) $V_0 = 3$, $\xi = 50$, $E_F =2.02$.}
+	
+	\label{fig:density_comp}%
 \end{figure}
-
+\begin{figure}[!h]
+	\centering
+	\subfloat[ ]{{\includegraphics[width=0.4\linewidth]{../figures/density_off_202_reflection} }}%
+	\qquad
+	\subfloat[]{{\includegraphics[width=0.4\linewidth]{../figures/density_on_202_reflection} }}%
+	\caption{The charge density as a function of time $t$ and position $x$ (a) without (b) QPC. The parameters were $\overline{n} =0.01$, $\tau = 500$, $t_0 =1200$, (a) $V_0 = 0$ (b) $V_0 = 3$, $\xi = 50$, $E_F =2.02$.}
+	
+	\label{fig:density_comp_reflec}%
+\end{figure}
 
 
 

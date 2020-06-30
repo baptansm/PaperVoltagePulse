@@ -24,7 +24,7 @@
 %\documentclass[aps,prl,preprint,superscriptaddress]{revtex4-2}
 %\documentclass[aps,prl,reprint,groupedaddress]{revtex4-2}
 \usepackage{amsmath}
-
+\usepackage{subfig}
 \usepackage{rotating}
 \usepackage{graphics}
 \usepackage{graphicx}
@@ -155,6 +155,22 @@ In our case, the QPC reflects the incoming states, and we obtain the following w
 \begin{equation}
 \Psi(x,t) = \frac{1}{\sqrt{v(k)}} e^{ikx - iEt} + r\frac{1}{\sqrt{v(k)}} e^{-ikx - iEt}
 \end{equation}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{../figures/density_off_202}
+	\caption{The charge density as a function of time $t$ and position $x$ without QPC. The parameters were $\overline{n} =0.01$, $\tau = 500$, $t_0 =1200$, $V_0 = 0$, $\xi = 50$, $E_F =2.02$.  }
+	\label{fig:densityoff202}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{../figures/density_on_202}
+	\caption{The charge density as a function of time $t$ and position $x$ without QPC. The parameters were $\overline{n} =0.01$, $\tau = 500$, $t_0 =1200$, $V_0 = 3$, $\xi = 50$, $E_F =2.02$.}
+	\label{fig:densityon202}
+\end{figure}
+
+
+
 
 This leads to destructive interferences. However, as the voltage pulse progagates, the incoming state phase shift dynamically:
 \begin{equation}

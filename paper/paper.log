@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.26)  29 JUN 2020 13:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.26)  30 JUN 2020 11:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -160,58 +160,26 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
-Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 99.
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-))
-\Gin@req@height=\dimen111
-\Gin@req@width=\dimen112
-)
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-\c@r@tfl@t=\count107
-\rotFPtop=\skip49
-\rotFPbot=\skip50
-\rot@float@box=\box43
-\rot@mess@toks=\toks22
-)
-(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
-Package: subfig 2005/06/28 ver: 1.3 subfig package
-
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen113
-\captionmargin@=\dimen114
-\captionwidth=\dimen115
-\caption@tempdima=\dimen116
-\caption@indent=\dimen117
-\caption@parindent=\dimen118
-\caption@hangindent=\dimen119
+\captionmargin=\dimen111
+\captionmargin@=\dimen112
+\captionwidth=\dimen113
+\caption@tempdima=\dimen114
+\caption@indent=\dimen115
+\caption@parindent=\dimen116
+\caption@hangindent=\dimen117
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 )
@@ -226,22 +194,52 @@ onskip \begingroup \small \rmfamily \sbox \@tempboxa {\let \\\heading@cr \@make
 lushing \let \footnote \@footnotemark@gobble \@make@capt@title {#1}{#2}\par \en
 dgroup }{\global \@minipagefalse \hb@xt@ \hsize {\hfil \unhbox \@tempboxa \hfil
  }}\endgroup \vskip \belowcaptionskip .
-\c@ContinuedFloat=\count108
-Package caption Info: rotating package is loaded.
+\c@ContinuedFloat=\count107
 )
-\c@KVtest=\count109
-\sf@farskip=\skip51
-\sf@captopadj=\dimen120
-\sf@capskip=\skip52
-\sf@nearskip=\skip53
-\c@subfigure=\count110
-\c@subfigure@save=\count111
-\c@lofdepth=\count112
-\c@subtable=\count113
-\c@subtable@save=\count114
-\c@lotdepth=\count115
-\sf@top=\skip54
-\sf@bottom=\skip55
+\c@KVtest=\count108
+\sf@farskip=\skip49
+\sf@captopadj=\dimen118
+\sf@capskip=\skip50
+\sf@nearskip=\skip51
+\c@subfigure=\count109
+\c@subfigure@save=\count110
+\c@lofdepth=\count111
+\c@subtable=\count112
+\c@subtable@save=\count113
+\c@lotdepth=\count114
+\sf@top=\skip52
+\sf@bottom=\skip53
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen119
+\Gin@req@width=\dimen120
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count115
+\rotFPtop=\skip54
+\rotFPbot=\skip55
+\rot@float@box=\box43
+\rot@mess@toks=\toks22
 )
 Class revtex4-1 Info: Patching LaTeX tabular. on input line 38.
 Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 38.
@@ -264,6 +262,10 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -334,9 +336,6 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfig package v1.3 is loaded.
-Package caption Info: End \AtBeginDocument code.
 \openout3 = `paperNotes.bib'.
 
 
@@ -360,35 +359,48 @@ File: ../figures/A_vs_nbar_vs_transm.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../figures/A_vs_nbar_vs_transm.pdf  used on input line
  143.
 (pdftex.def)             Requested size: 327.59857pt x 245.6971pt.
+<../figures/density_off_202.pdf, id=23, 722.7pt x 722.7pt>
+File: ../figures/density_off_202.pdf Graphic file (type pdf)
+<use ../figures/density_off_202.pdf>
+Package pdftex.def Info: ../figures/density_off_202.pdf  used on input line 160
+.
+(pdftex.def)             Requested size: 327.59857pt x 327.59393pt.
+<../figures/density_on_202.pdf, id=24, 722.7pt x 722.7pt>
+File: ../figures/density_on_202.pdf Graphic file (type pdf)
+<use ../figures/density_on_202.pdf>
+Package pdftex.def Info: ../figures/density_on_202.pdf  used on input line 167.
+
+(pdftex.def)             Requested size: 327.59857pt x 327.59393pt.
  [3 <../figures/syst_color_textv2.pdf>] (./paper.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 53.
 
-) [4 <../figures/A_vs_nbar_vs_transm.pdf>] (./paper.aux) ) 
+) [4 <../figures/A_vs_nbar_vs_transm.pdf>] [5 <../figures/density_off_202.pdf>]
+[6 <../figures/density_on_202.pdf>] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 5359 strings out of 492982
- 76667 string characters out of 6134896
- 155033 words of memory out of 5000000
- 8870 multiletter control sequences out of 15000+600000
+ 5371 strings out of 492982
+ 77063 string characters out of 6134896
+ 148183 words of memory out of 5000000
+ 8880 multiletter control sequences out of 15000+600000
  9538 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,7n,42p,413b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on paper.pdf (4 pages, 151712 bytes).
+</usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on paper.pdf (6 pages, 210266 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 186 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

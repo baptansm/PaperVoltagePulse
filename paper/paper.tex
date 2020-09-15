@@ -118,7 +118,7 @@ with:
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[trim=0cm 5cm 0cm 5cm, width = 0.9\linewidth]{../figures/syst_color_textv2}
+	\includegraphics[trim=0cm 5cm 0cm 5cm, width = 0.9\linewidth]{../figures/scheme_system/scheme_system}
 	\caption{A schematic of the system. The wire is connected to two semi-infinte leads. The site color reflects the QPC's voltage amplitude. The time-dependent hopping parameter is displayed in red (here $L = 18$, $V_0 = 1$, $x_0 = L/2$, $\xi = 3$).}
 	\label{fig:systcolor}
 \end{figure}
@@ -140,10 +140,17 @@ with:
  \end{equation}
  \begin{figure}
  	\centering
- 	\includegraphics[width=0.7\linewidth]{../figures/A_vs_nbar_vs_transm}
- 	\caption{The oscillation amplitude $A$ vs the injected charge $overline{n}$ for different values for transmission $T$. Here the parameters were: $W =1$, $L = 3000$, $\xi = 50$, $\tau = 500$, $t_0 = 1200$. For $T=0$, $V_0 =3$, $\xi = 50$, for $T=0.67$ ($T=0.37$), $V_0 =0.4$ ($V_0 = 0.24$) and $\xi = 1$.}
+ 	\includegraphics[width=0.7\linewidth]{../figures/plot_A_vs_Transm/plot_A_vs_nbar_vs_T}
+ 	\caption{The oscillation amplitude $A$ vs the injected charge $overline{n}$ for different values for transmission $T$. Here the parameters were: $W =1$, $L = 3000$, $\xi = 50$, $\tau = 500$, $t_0 = 1200$. For $T=0$, $V_0 =3$, $\xi = 50$, for $T=0.67$ ($T=0.37$), $V_0 =0.4$ ($V_0 = 0.24$) and $\xi = 1$. The solid lines are obtained by fitting the data to the following function: $f(\overline{n}) = A_{fit}\sin(\pi \overline{n})$.}
  	\label{fig:avsnbarw1l3000v03lx50ef2}
  \end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\linewidth]{../figures/plot_A_vs_Transm/plot_A_from_fit_vs_Transm}
+	\caption{The oscillation amplitude $A_{fit}$ obtained by fitting the oscillation amplitude vs $\overline{n}$ at different transmission $T$ values.}
+	\label{fig:plotafromfitvstransm}
+\end{figure}
+
  
 \section{Interferences}
 For one-dimensional chain, the scattering states have the simple form:
@@ -155,16 +162,16 @@ In our case, the QPC reflects the incoming states, and we obtain the following w
 \begin{equation}
 \Psi(x,t) = \frac{1}{\sqrt{v(k)}} e^{ikx - iEt} + r\frac{1}{\sqrt{v(k)}} e^{-ikx - iEt}
 \end{equation}
-
-\begin{figure}[!h]
-	\centering
-	\subfloat[ ]{{\includegraphics[width=0.4\linewidth]{../figures/plot_densities_vs_t/plot_density_vs_t_qpc_off} }}%
-	\qquad
-	\subfloat[]{{\includegraphics[width=0.4\linewidth]{../figures/plot_densities_vs_t/plot_density_vs_t_qpc_on} }}%
-	\caption{The charge density as a function of time $t$ and position $x$ (a) without (b) QPC. The parameters were $\overline{n} =0.01$, $\tau = 500$, $t_0 =1200$, (a) $V_0 = 0$ (b) $V_0 = 3$, $\xi = 50$, $E_F =2.02$.}
-	
-	\label{fig:density_comp}%
-\end{figure}
+%
+%\begin{figure}[!h]
+%	\centering
+%	\subfloat[ ]{{\includegraphics[width=0.4\linewidth]{../figures/plot_densities_vs_t/plot_density_vs_t_qpc_off} }}%
+%	\qquad
+%	\subfloat[]{{\includegraphics[width=0.4\linewidth]{../figures/plot_densities_vs_t/plot_density_vs_t_qpc_on} }}%
+%	\caption{The charge density as a function of time $t$ and position $x$ (a) without (b) QPC. The parameters were $\overline{n} =0.01$, $\tau = 500$, $t_0 =1200$, (a) $V_0 = 0$ (b) $V_0 = 3$, $\xi = 50$, $E_F =2.02$.}
+%	
+%	\label{fig:density_comp}%
+%\end{figure}
 \begin{figure}[!h]
 	\centering
 	\subfloat[ ]{{\includegraphics[width=0.4\linewidth]{../figures/density_off_202_reflection} }}%
@@ -186,9 +193,15 @@ which unveils the presence of interferences by changing the phase differences be
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{../figures/G_AMP_Q}
+	\includegraphics[width=0.7\linewidth]{../figures/plot_G_AMP_Q/plot_A_vs_G}
 	\caption{$L =4000$, $V_0 = 1.7$, $\xi = 2.1$}
-	\label{fig:gampq}
+	\label{fig:a_vs_g}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{../figures/plot_G_AMP_Q/plot_G_AMP_Q}
+	\caption{$L =4000$, $V_0 = 1.7$, $\xi = 2.1$}
+	\label{fig:A_vs_G}
 \end{figure}
 
 
@@ -224,10 +237,15 @@ which unveils the presence of interferences by changing the phase differences be
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{../figures/1dwire_manypulse/plot_manypulse_L5000_V030_Ef2015_u00_n001}
+	\includegraphics[width=0.7\linewidth]{../figures/plot_manypulse/plot_manypulse_L5000_V030_Ef2015_u00_n001}
 	\caption{For $V_0$ = 3, $\overline{n}$ = 0.01, $E_F$ = 2.015, we send a new pulse everytime a pulse reaches the QPC. In some region, the oscillation seems to be quasi-stationnary.  }	\label{fig:plotmanypulsel5000v03}
 \end{figure}
 
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{../figures/plot_manypulse_t_2/plot_manypulse_L5000_V030_Ef2015_u00_n001_t_2}
+	\caption{For $V_0$ = 3, $\overline{n}$ = 0.01, $E_F$ = 2.015, we send a new pulse everytime a pulse reaches the half-way point of the region. The oscillation seems to be quasi-stationnary.  }	\label{fig:plotmanypulse_t2}
+\end{figure}
 
 
 \bibliography{basename of .bib file}
